@@ -20,13 +20,13 @@ double getwidth()const{
 double getheight()const{
     return height;
 }
-double area{}const{
+double area()const{
     return width*height
 }
-double perimeter{} const{
+double perimeter() const{
     return 2* (width + height);
 }
-void display{} const{
+void display() const{
     cout << "Rectangle: " << width <<  " x " << height << endl;
     cout << "area: " << area() << endl;
     cout << "perimeter: " << perimeter() << endl;
